@@ -36,3 +36,4 @@ The table is bound to change as more details need to be further included.
 | Sonarr   | [github.com/Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)         | `>4.0.5`  | `/ping`         | 200    | GET    |         |         |
 | Radarr   | [github.com/Radarr/Radarr](https://github.com/Radarr/Radarr)         | `>5.20.2` | `/ping`         | 200    | GET    |         |         |
 | Lidarr   | [github.com/Lidarr/Lidarr](https://github.com/Lidarr/Lidarr)         | `>2.3.3`  | `/ping`         | 200    | GET    |         |         |
+| Prowlarr | [github.com/Prowlarr/Prowlarr](https://github.com/Prowlarr/Prowlarr) | `>1.27.3` | `/ping`         | 200    | GET    |         |         |
