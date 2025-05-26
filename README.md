@@ -34,3 +34,4 @@ The table is bound to change as more details need to be further included.
 | Name   | Repository                                                   | Version   | Health Endpoint | Status | Method | Headers | Remarks |
 |--------|--------------------------------------------------------------|-----------|-----------------|--------|--------|---------|---------|
 | Sonarr | [github.com/Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | `>4.0.5`  | `/ping`         | 200    | GET    |         |         |
+| Radarr | [github.com/Radarr/Radarr](https://github.com/Radarr/Radarr) | `>5.20.2` | `/ping`         | 200    | GET    |         |         |
