@@ -37,14 +37,19 @@ This is by far an incomplete list, any raised issue with or w/out a new entry is
 
 *The information table below is bound to change as more details need to be further included.*
 
-| Name        | Repository                                                                       | Version*    | Health Endpoint**     | Status | Method | Headers | Remarks |
-|-------------|----------------------------------------------------------------------------------|-------------|-----------------------|--------|--------|---------|---------|
-| Sonarr      | [github.com/Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)                     | `>4.0.5`    | `/ping`               | 200    | GET    |         |         |
-| Radarr      | [github.com/Radarr/Radarr](https://github.com/Radarr/Radarr)                     | `>5.20.2`   | `/ping`               | 200    | GET    |         |         |
-| Lidarr      | [github.com/Lidarr/Lidarr](https://github.com/Lidarr/Lidarr)                     | `>2.3.3`    | `/ping`               | 200    | GET    |         |         |
-| Prowlarr    | [github.com/Prowlarr/Prowlarr](https://github.com/Prowlarr/Prowlarr)             | `>1.27.3`   | `/ping`               | 200    | GET    |         |         |
-| AdGuardHome | [github.com/AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | `>0.107.56` | `/control/status`     | 200    | GET    |         |         |
-| Argus       | [github.com/release-argus/Argus](https://github.com/release-argus/Argus)         | `>0.20.0`   | `/api/v1/healthcheck` | 200    | GET    |         |         |
+| Name                | Repository                                                                       | Version*    | Health Endpoint**                        | Status | Method | Headers                         | Remarks        |
+|---------------------|----------------------------------------------------------------------------------|-------------|------------------------------------------|--------|--------|---------------------------------|----------------|
+| Sonarr              | [github.com/Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)                     | `>4.0.5`    | `/ping`                                  | 200    | GET    |                                 |                |
+| Radarr              | [github.com/Radarr/Radarr](https://github.com/Radarr/Radarr)                     | `>5.20.2`   | `/ping`                                  | 200    | GET    |                                 |                |
+| Lidarr              | [github.com/Lidarr/Lidarr](https://github.com/Lidarr/Lidarr)                     | `>2.3.3`    | `/ping`                                  | 200    | GET    |                                 |                |
+| Prowlarr            | [github.com/Prowlarr/Prowlarr](https://github.com/Prowlarr/Prowlarr)             | `>1.27.3`   | `/ping`                                  | 200    | GET    |                                 |                |
+| AdGuardHome         | [github.com/AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | `>0.107.56` | `/control/status`                        | 200    | GET    |                                 |                |
+| Argus               | [github.com/release-argus/Argus](https://github.com/release-argus/Argus)         | `>0.20.0`   | `/api/v1/healthcheck`                    | 200    | GET    |                                 |                |
+| Apprise API         | [github.com/caronc/apprise-api](https://github.com/caronc/apprise-api)           | `>1.2.0`    | `/status`                                | 200    | GET    |                                 |                |
+| Atuin               | [github.com/atuinsh/atuin](https://github.com/atuinsh/atuin)                     | `>18.6.0`   | `/healthz`                               | 200    | GET    |                                 |                |
+| Authelia            | [github.com/authelia/authelia](https://github.com/authelia/authelia)             | `>4.39.4`   | `/api/health`                            | 200    | GET    |                                 |                |
+| Backrest            | [github.com/garethgeorge/backrest](https://github.com/garethgeorge/backrest)     | `>1.8.1`    | `/v1.Backrest/GetConfig`                 | 200    | POST   | content-type: application/proto |                |
+| Beszel              | [github.com/henrygd/beszel](https://github.com/henrygd/beszel)                   | `>0.11.1`   | `/api/health`                            | 200    | GET    |                                 |                |
 
 \* it's highly likely the health endpoint will work for app versions **not** mentioned here, the listed ones are confirmed to work.
 
