@@ -31,7 +31,8 @@ This is by far an incomplete list, any raised issue with or w/out a new entry is
 
 The table is bound to change as more details need to be further included.
 
-| Name   | Repository                                                   | Version   | Health Endpoint | Status | Method | Headers | Remarks |
-|--------|--------------------------------------------------------------|-----------|-----------------|--------|--------|---------|---------|
-| Sonarr | [github.com/Sonarr/Sonarr](https://github.com/Sonarr/Sonarr) | `>4.0.5`  | `/ping`         | 200    | GET    |         |         |
-| Radarr | [github.com/Radarr/Radarr](https://github.com/Radarr/Radarr) | `>5.20.2` | `/ping`         | 200    | GET    |         |         |
+| Name     | Repository                                                           | Version   | Health Endpoint | Status | Method | Headers | Remarks |
+|----------|----------------------------------------------------------------------|-----------|-----------------|--------|--------|---------|---------|
+| Sonarr   | [github.com/Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)         | `>4.0.5`  | `/ping`         | 200    | GET    |         |         |
+| Radarr   | [github.com/Radarr/Radarr](https://github.com/Radarr/Radarr)         | `>5.20.2` | `/ping`         | 200    | GET    |         |         |
+| Lidarr   | [github.com/Lidarr/Lidarr](https://github.com/Lidarr/Lidarr)         | `>2.3.3`  | `/ping`         | 200    | GET    |         |         |
