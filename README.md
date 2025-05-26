@@ -35,12 +35,17 @@ Fields descriptions:
 #### Notice
 This is by far an incomplete list, any raised issue with or w/out a new entry is more than welcomed. PRs even more!  
 
-The table is bound to change as more details need to be further included.
+*The information table below is bound to change as more details need to be further included.*
 
-| Name        | Repository                                                                       | Version*    | Health Endpoint** | Status | Method | Headers | Remarks |
-|-------------|----------------------------------------------------------------------------------|-------------|-------------------|--------|--------|---------|---------|
-| Sonarr      | [github.com/Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)                     | `>4.0.5`    | `/ping`           | 200    | GET    |         |         |
-| Radarr      | [github.com/Radarr/Radarr](https://github.com/Radarr/Radarr)                     | `>5.20.2`   | `/ping`           | 200    | GET    |         |         |
-| Lidarr      | [github.com/Lidarr/Lidarr](https://github.com/Lidarr/Lidarr)                     | `>2.3.3`    | `/ping`           | 200    | GET    |         |         |
-| Prowlarr    | [github.com/Prowlarr/Prowlarr](https://github.com/Prowlarr/Prowlarr)             | `>1.27.3`   | `/ping`           | 200    | GET    |         |         |
-| AdguardHome | [github.com/AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | `>0.107.56` | `/control/status` | 200    | GET    |         |         |
+| Name        | Repository                                                                       | Version*    | Health Endpoint**     | Status | Method | Headers | Remarks |
+|-------------|----------------------------------------------------------------------------------|-------------|-----------------------|--------|--------|---------|---------|
+| Sonarr      | [github.com/Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)                     | `>4.0.5`    | `/ping`               | 200    | GET    |         |         |
+| Radarr      | [github.com/Radarr/Radarr](https://github.com/Radarr/Radarr)                     | `>5.20.2`   | `/ping`               | 200    | GET    |         |         |
+| Lidarr      | [github.com/Lidarr/Lidarr](https://github.com/Lidarr/Lidarr)                     | `>2.3.3`    | `/ping`               | 200    | GET    |         |         |
+| Prowlarr    | [github.com/Prowlarr/Prowlarr](https://github.com/Prowlarr/Prowlarr)             | `>1.27.3`   | `/ping`               | 200    | GET    |         |         |
+| AdGuardHome | [github.com/AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | `>0.107.56` | `/control/status`     | 200    | GET    |         |         |
+| Argus       | [github.com/release-argus/Argus](https://github.com/release-argus/Argus)         | `>0.20.0`   | `/api/v1/healthcheck` | 200    | GET    |         |         |
+
+\* it's highly likely the health endpoint will work for app versions **not** mentioned here, the listed ones are confirmed to work.
+
+\*\* not all applications define a true health endpoint. in order to have a minimum live-ness "*endpoint*", the smallest available request was selected.
