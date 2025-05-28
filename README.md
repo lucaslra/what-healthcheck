@@ -12,7 +12,7 @@
 ### What is this?
 A (growing) list of healthchecks for self-hosted software, so it can help set up faster health observability of said applications. 
 
-The list can be used to add uptime check to tools like [Traefik](https://traefik.io/) / [UptimeKuma](https://uptimekuma.org/) / [Gatus](https://gatus.io/) / and many more similar others.
+The list can be used to add uptime check to tools like [Traefik](https://traefik.io/) / [UptimeKuma](https://uptimekuma.org/) / [Gatus](https://gatus.io/) / etc. or even for internal container healtchecks (useful to see if a broken config was generated and the app is not starting anymore or post auto-container updates).
 
 ### Why is this?
 While trying to migrate to a different health monitoring system, I realized a lot of health endpoints are either not-available or not listed and hidden into the code outside any documentation and usually available post a raised issue or PR.
@@ -60,6 +60,9 @@ This is by far an incomplete list, any raised issue with or w/out a new entry is
 | Gitea               | [github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)                           | `>1.23.8`   | `/api/healthz`                           | 200    | GET    |                                                                            |                   |
 | Grafana             | [github.com/grafana/grafana](https://github.com/grafana/grafana)                         | `>12.0.0`   | `/api/health`                            | 200    | GET    |                                                                            |                   |
 | HomeAssistant Core  | [github.com/home-assistant/core](https://github.com/home-assistant/core)                 | `>2025.5.3` | `/api/`                                  | 401    | GET    | no real live-endpoint. one could create an empty API webhook to return 200 |                   |
+| Docmost             | [github.com/docmost/docmost](https://github.com/docmost/docmost)                         | `>0.20.0`   | `/api/health`                            | 200    | GET    |                                                                            |                   |
+| Cloud Commander     | [github.com/coderaiser/cloudcmd](https://github.com/coderaiser/cloudcmd)                 | `>18.5.2`   | `/manifest.json`                         | 200    | GET    |                                                                            |                   |
+| Infisical           | [github.com/Infisical/infisical](https://github.com/Infisical/infisical)                 | `>0.130.0`  | `/api/status`                            | 200    | GET    |                                                                            |                   |
 
 \* it's highly likely the health endpoint will work for app versions **not** mentioned here, the listed ones are confirmed to work.
 
